@@ -1,0 +1,768 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Perfil</title>
+    <link href="./images/icons/Icono_Estudio_clio.png" rel="icon" type="image/x-icon">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+  </head>
+  <body>
+<!-- Encabezado / Menu Usuario -->
+  <div class="fixed-top">
+    <header>
+      <nav>
+        <div class="container-fluid">
+          <div class="row menu-usuario">
+            <div class="col-1">
+              <div class="dropdown show">
+                <a class="dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  <img src="./images/Logo_EstudioClio_Vertical.png" alt="Logo Estudio Clio" class="biglogo d-none d-xl-block">
+                  <img src="./images/Logo_EstudioClio_Vertical.png" alt="Logo Estudio Clio" class="logo d-none d-md-block d-xl-none">
+                  <img src="./images/icons/Icono_Estudio_clio.png" alt="Logo Estudio Clio" class="ico-logo d-md-none">
+                </a>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                  <a class="dropdown-item" href="./novedades.html"><img src="./images/icons/icons_submenu/sesion/Notificacion_gc.png" class="ico-home">Novedades</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="./perfil.html"><img src="./images/users/perfil3.jpg" class="ico-home rounded">Elliot</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item disabled" href="#">Mis Ubicaciones:</a>
+                  <a class="dropdown-item" href="./ubicacion_casa.html"><img src="./images/icons/icons_submenu/sesion/estado_ve.png" class="ico-home">Casa</a>
+                  <a class="dropdown-item" href="./ubicacion_oficina.html"><img src="./images/icons/icons_submenu/sesion/estado_gc.png" class="ico-home">Oficina</a>
+                  <a class="dropdown-item" href="ubicacion_nueva.html"><img src="./images/icons/icons_submenu/agregar/Agregar_gc_bl.png" class="ico-home">Añadir</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="http://localhost/estudioclio/" target="_blank"><img src="./images/icons/icons_submenu/sesion/web_gc.png" class="ico-home">estudioclio.com</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="./index.html"><img src="./images/icons/icons_submenu/sesion/cerrar-sesion_gc.png" class="ico-home">Salir</a>
+                </div>
+              </div>
+            </div>
+          </div>
+<!-- Menu Interacción -->
+<!-- Celulares -->
+          <div class="d-lg-none">
+            <div class="row d-flex justify-content-center menu-interacciones-celu">
+              <a href="seguridad.html"><img src="./images/icons/icons_menu_interacciones/01_Seguridad.png" class="ico-celu" data-toggle="tooltip" title="Seguridad"></a>
+              <a href="aberturas.html"><img src="./images/icons/icons_menu_interacciones/02_Aberturas.png" class="ico-celu" data-toggle="tooltip" title="Aberturas"></a>
+              <a href="iluminacion.html"><img src="./images/icons/icons_menu_interacciones/03_Iluminacion.png" class="ico-celu" data-toggle="tooltip" title="Iluminación"></a>
+              <a href="botanica.html"><img src="./images/icons/icons_menu_interacciones/04_Botanica.png" class="ico-celu" data-toggle="tooltip" title="Botánica"></a>
+              <a href="climatizacion.html"><img src="./images/icons/icons_menu_interacciones/05_Climatizacion.png" class="ico-celu" data-toggle="tooltip" title="Climatización"></a>
+              <a href="artefactos.html"><img src="./images/icons/icons_menu_interacciones/06_Artefactos.png" class="ico-celu" data-toggle="tooltip" title="Artefactos"></a>
+              <a href="musica.html"><img src="./images/icons/icons_menu_interacciones/07_Musica.png" class="ico-celu" data-toggle="tooltip" title="Musica"></a>
+            </div>
+          </div>
+<!-- PCS -->
+          <div class="d-none d-lg-block">
+            <div class="row d-flex justify-content-center menu-interacciones-pcs">
+              <a href="seguridad.html"><img src="./images/icons/icons_menu_interacciones/01_Seguridad.png" class="ico-selec" data-toggle="tooltip" title="Seguridad"></a>
+              <a href="aberturas.html"><img src="./images/icons/icons_menu_interacciones/02_Aberturas.png" class="ico-selec" data-toggle="tooltip" title="Aberturas"></a>
+              <a href="iluminacion.html"><img src="./images/icons/icons_menu_interacciones/03_Iluminacion.png" class="ico-selec" data-toggle="tooltip" title="Iluminación"></a>
+              <a href="botanica.html"><img src="./images/icons/icons_menu_interacciones/04_Botanica.png" class="ico-selec" data-toggle="tooltip" title="Botánica"></a>
+              <a href="climatizacion.html"><img src="./images/icons/icons_menu_interacciones/05_Climatizacion.png" class="ico-selec" data-toggle="tooltip" title="Climatización"></a>
+              <a href="artefactos.html"><img src="./images/icons/icons_menu_interacciones/06_Artefactos.png" class="ico-selec" data-toggle="tooltip" title="Artefactos"></a>
+              <a href="musica.html"><img src="./images/icons/icons_menu_interacciones/07_Musica.png" class="ico-selec" data-toggle="tooltip" title="Musica"></a>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+  </div>
+
+<!-- Menu Información/Selección -->
+
+<div class="container-fluid margen menu-seleccion gm">
+  <div class="container margen-menu">
+
+<!-- Datos Personales -->
+
+    <div class="row">
+      <div class="card mb-3" style="min-width: 100%;">
+        <div class="card-header">Editar Perfil</div>
+        <div class="card-body">
+          <div class="row mrg-sup-form">
+            <div class="col-3">
+              <label class="card-text">Cambiar imagen de perfil</label>
+            </div>
+            <div class="col-9">
+              <a href="" target="new"><img src="./images/users/perfil3.jpg" alt="" class="ico-edit-tarjeta rounded" data-toggle="tooltip" title="Cambiar Imagen"></a>
+            </div>
+          </div>
+          <div class="row mrg-sup-form">
+            <div class="col-3">
+              <label class="card-text">Nombre</label>
+            </div>
+            <div class="col-9">
+              <input type="text" class="form-control" placeholder="Elliot">
+            </div>
+          </div>
+          <div class="row mrg-sup-form">
+            <div class="col-3">
+              <label class="card-text">Apellido</label>
+            </div>
+            <div class="col-9">
+              <input type="text" class="form-control" placeholder="Alderson">
+            </div>
+          </div>
+          <div class="row mrg-sup-form">
+            <div class="col-3">
+              <label class="card-text">eMail</label>
+            </div>
+            <div class="col-9">
+              <input type="email" class="form-control" id="inputEmail4" placeholder="elliotalderson@gmail.com">
+            </div>
+          </div>
+          <div class="row mrg-sup-form">
+            <div class="col-3">
+              <label class="card-text">Teléfono</label>
+            </div>
+            <div class="col-9">
+              <input type="text" class="form-control" placeholder="+54 294 431 3745">
+            </div>
+          </div>
+          <div class="row justify-content-end mrg-sup-form">
+            <div class="col-auto">
+              <button type="button" class="btn btn-outline-secondary">Descartar</button>
+              <button type="button" class="btn btn-dark">Guardar cambios</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+<!-- Fin Datos Personales -->
+<!-- Pasword -->
+
+<div class="row">
+  <div class="card mb-3" style="min-width: 100%;">
+    <div class="card-header">Cambiar Contraseña</div>
+    <div class="card-body">
+      <div class="row mrg-sup-form">
+        <div class="col-3">
+          <label class="card-text">Contraseña actual</label>
+        </div>
+        <div class="col-9">
+          <input type="password" class="form-control" id="" placeholder="Contraseña actual">
+        </div>
+      </div>
+      <div class="row mrg-sup-form">
+        <div class="col-3">
+          <label class="card-text">Contraseña nueva</label>
+        </div>
+        <div class="col-9">
+          <input type="password" class="form-control" id="" placeholder="Contraseña nueva">
+        </div>
+      </div>
+      <div class="row mrg-sup-form">
+        <div class="col-3">
+          <label class="card-text">Repetir contraseña nueva</label>
+        </div>
+        <div class="col-9">
+          <input type="password" class="form-control" id="" placeholder="Repetir contraseña nueva">
+        </div>
+      </div>
+      <div class="row justify-content-end mrg-sup-form">
+        <div class="col-auto">
+          <button type="button" class="btn btn-outline-secondary">Descartar</button>
+          <button type="button" class="btn btn-dark">Guardar cambios</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Fin Pasword -->
+<!-- Espacios -->
+
+<div class="row">
+  <div class="card mb-3" style="min-width: 100%;">
+    <div class="card-header">Administrar ubicaciones</div>
+    <div class="card-body">
+      <div class="row mrg-sup-form">
+        <div class="col-3">
+          <label class="card-text"><img src="./images/icons/icons_submenu/sesion/estado_ve.png" class="ico-home">Casa</label>
+        </div>
+        <div class="col-3">
+          <label class="card-text"><img src="./images/icons/icons_submenu/sesion/Usuario_gc.png" class="ico-home">Administrador</label>
+        </div>
+        <div class="col-3">
+          <a href="ubicacion_casa.html" class="card-text"><img src="./images/icons/icons_submenu/sesion/configuracion_gc.png" class="ico-home">Configuración</a>
+        </div>
+      </div>
+      <div class="row mrg-sup-form">
+        <div class="col-3">
+          <label class="card-text"><img src="./images/icons/icons_submenu/sesion/estado_gc.png" class="ico-home">Oficina</label>
+        </div>
+        <div class="col-3">
+          <label class="card-text"><img src="./images/icons/icons_submenu/sesion/Usuario_gc.png" class="ico-home">Usuario</label>
+        </div>
+        <div class="col-3">
+          <a href="ubicacion_oficina.html" class="card-text"><img src="./images/icons/icons_submenu/sesion/configuracion_gc.png" class="ico-home">Configuración</a>
+        </div>
+      </div>
+      <div class="row mrg-sup-form">
+        <div class="col">
+          <a href="ubicacion_nueva.html" class="card-text"><img src="./images/icons/icons_submenu/agregar/Agregar_gc_bl.png" class="ico-home">Añadir ubicacion</a>
+        </div>
+      </div>
+      <div class="row justify-content-end mrg-sup-form">
+        <div class="col-auto">
+          <button type="button" class="btn btn-outline-secondary">Descartar</button>
+          <button type="button" class="btn btn-dark">Guardar cambios</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Fin Espacios -->
+<!-- Entorno Novedades -->
+
+<div class="row">
+  <div class="card mb-3" style="min-width: 100%;">
+    <div class="card-header">Administrar Entorno de Novedades</div>
+    <div class="card-body">
+      <div class="row">
+        <div class="col-2">
+          <div class="card" style="width: 100%; min-height: 52vh;">
+            <img class="card-img-top" src="./images/ad_entorno/ad_en_01.png" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Espacios</h5>
+              <p class="card-text">Selecciona de manera directa el espacio a interactuar.</p>
+            </div>
+            <div class="marg-boton">
+              <a href="#" class="btn btn-success">Quitar</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-2">
+          <div class="card" style="width: 100%; min-height: 52vh;">
+            <img class="card-img-top" src="./images/ad_entorno/ad_en_02.png" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Lista de Compras</h5>
+              <p class="card-text">Comparte una lista de compras con tus compañeros de hogar.</p>
+            </div>
+            <div class="marg-boton">
+              <a href="#" class="btn btn-success">Quitar</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-2">
+          <div class="card" style="width: 100%; min-height: 52vh;">
+            <img class="card-img-top" src="./images/ad_entorno/ad_en_03.png" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Mensajes</h5>
+              <p class="card-text">Comparte mensajes e imagenes con tus compañeros de hogar.</p>
+            </div>
+            <div class="marg-boton">
+              <a href="#" class="btn btn-success">Quitar</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-2">
+          <div class="card" style="width: 100%; min-height: 52vh;">
+            <img class="card-img-top" src="./images/ad_entorno/ad_en_04.png" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Sugerencias</h5>
+              <p class="card-text">Recibe sugerencias para optimizar el consumo y rendimiento de tu hogar.</p>
+            </div>
+            <div class="marg-boton">
+              <a href="#" class="btn btn-success">Quitar</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-2">
+          <div class="card" style="width: 100%; min-height: 52vh;">
+            <img class="card-img-top" src="./images/ad_entorno/ad_en_05.png" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Secuencias</h5>
+              <p class="card-text">Administra las programaciones de todos los entornos.</p>
+            </div>
+            <div class="marg-boton">
+              <a href="#" class="btn btn-secondary">Añadir</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-2">
+          <div class="card border-danger mb-3" style="width: 100%; min-height: 52vh;">
+            <img class="card-img-top" src="./images/ad_entorno/ad_en_06.png" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title text-danger">Alarma</h5>
+              <p class="card-text">Activa o desactiva inmediatamente la alarma.</p>
+            </div>
+            <div class="marg-boton">
+              <a href="#" class="btn btn-success">Quitar</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-2">
+          <div class="card border-danger mb-3" style="width: 100%; min-height: 52vh;">
+            <img class="card-img-top" src="./images/ad_entorno/ad_en_07.png" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title text-danger">Cámaras</h5>
+              <p class="card-text">Visualiza y accede de manera inmediata a tus cámaras de seguridad.</p>
+            </div>
+            <div class="marg-boton">
+              <a href="#" class="btn btn-success">Quitar</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-2">
+          <div class="card border-danger mb-3" style="width: 100%; min-height: 52vh;">
+            <img class="card-img-top" src="./images/ad_entorno/ad_en_08.png" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title text-danger">Alertas</h5>
+              <p class="card-text">Recibe notificaciones instantaneas de cualquier suceso de relevancia con respecto a la seguridad.</p>
+            </div>
+            <div class="marg-boton">
+              <a href="#" class="btn btn-success">Quitar</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-2">
+          <div class="card border-danger mb-3" style="width: 100%; min-height: 52vh;">
+            <img class="card-img-top" src="./images/ad_entorno/ad_en_09.png" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title text-danger">Secuencias</h5>
+              <p class="card-text">Accede a la configuración de secuencias automáticas de Seguridad.</p>
+            </div>
+            <div class="marg-boton">
+              <a href="#" class="btn btn-secondary">Añadir</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-2">
+          <div class="card border-aberturas" style="width: 100%; min-height: 52vh;">
+            <img class="card-img-top" src="./images/ad_entorno/ad_en_10.png" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title text-aberturas">Abrir/Cerrar Todo</h5>
+              <p class="card-text">Dispara rapidamente la secuencia para abrir o cerrar todas las aberturas en simultaneo.</p>
+            </div>
+            <div class="marg-boton">
+              <a href="#" class="btn btn-success">Quitar</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-2">
+          <div class="card border-aberturas" style="width: 100%; min-height: 52vh;">
+            <img class="card-img-top" src="./images/ad_entorno/ad_en_11.png" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title text-aberturas">Ventilación</h5>
+              <p class="card-text">Accede a la configuracion y manejo de la ventilación.</p>
+            </div>
+            <div class="marg-boton">
+              <a href="#" class="btn btn-secondary">Añadir</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-2">
+          <div class="card border-aberturas" style="width: 100%; min-height: 52vh;">
+            <img class="card-img-top" src="./images/ad_entorno/ad_en_12.png" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title text-aberturas">Luz Natural</h5>
+              <p class="card-text">Regular automaticamente las aberturas para la optimización de luz natural</p>
+            </div>
+            <div class="marg-boton">
+              <a href="#" class="btn btn-secondary">Añadir</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-2">
+          <div class="card border-aberturas" style="width: 100%; min-height: 52vh;">
+            <img class="card-img-top" src="./images/ad_entorno/ad_en_13.png" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title text-aberturas">Secuencias</h5>
+              <p class="card-text">Accede a la configuración de secuencias automáticas de Aberturas.</p>
+            </div>
+            <div class="marg-boton">
+              <a href="#" class="btn btn-secondary">Añadir</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-2">
+          <div class="card border-warning mb-3" style="width: 100%; min-height: 52vh;">
+            <img class="card-img-top" src="./images/ad_entorno/ad_en_14.png" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title text-warning">Prender Todo</h5>
+              <p class="card-text">Prendé o apaga todo a un click!</p>
+            </div>
+            <div class="marg-boton">
+              <a href="#" class="btn btn-secondary">Añadir</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-2">
+          <div class="card border-warning mb-3" style="width: 100%; min-height: 52vh;">
+            <img class="card-img-top" src="./images/ad_entorno/ad_en_15.png" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title text-warning">Eficiencia Energética</h5>
+              <p class="card-text">Accede a las configuraciones y estadisticas Energéticas del entorno Iluminación.</p>
+            </div>
+            <div class="marg-boton">
+              <a href="#" class="btn btn-secondary">Añadir</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-2">
+          <div class="card border-warning mb-3" style="width: 100%; min-height: 52vh;">
+            <img class="card-img-top" src="./images/ad_entorno/ad_en_16.png" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title text-warning">Lampara clio</h5>
+              <p class="card-text">Accede rapidamente al entorno de tu lámpara clio.</p>
+            </div>
+            <div class="marg-boton">
+              <a href="#" class="btn btn-secondary">Añadir</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-2">
+          <div class="card border-warning mb-3" style="width: 100%; min-height: 52vh;">
+            <img class="card-img-top" src="./images/ad_entorno/ad_en_17.png" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title text-warning">Secuencias</h5>
+              <p class="card-text">Accede a la configuración de secuencias automáticas de Iluminación.</p>
+            </div>
+            <div class="marg-boton">
+              <a href="#" class="btn btn-success">Quitar</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-2">
+          <div class="card border-success" style="width: 100%; min-height: 52vh;">
+            <img class="card-img-top" src="./images/ad_entorno/ad_en_18.png" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title text-success">Iniciar Riego</h5>
+              <p class="card-text">Dispara rapidamente la secuencia de riego.</p>
+            </div>
+            <div class="marg-boton">
+              <a href="#" class="btn btn-success">Quitar</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-2">
+          <div class="card border-success" style="width: 100%; min-height: 52vh;">
+            <img class="card-img-top" src="./images/ad_entorno/ad_en_19.png" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title text-success">Ambiente</h5>
+              <p class="card-text">Accede de inmediato a los datos y estadisticas del ecosistema en el que habitan tus plantas</p>
+            </div>
+            <div class="marg-boton">
+              <a href="#" class="btn btn-secondary">Añadir</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-2">
+          <div class="card border-success" style="width: 100%; min-height: 52vh;">
+            <img class="card-img-top" src="./images/ad_entorno/ad_en_20.png" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title text-success">Especies</h5>
+              <p class="card-text">Entrá a la cononfiguracion y catálogo para un cuidado especializado.</p>
+            </div>
+            <div class="marg-boton">
+              <a href="#" class="btn btn-secondary">Añadir</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-2">
+          <div class="card border-success mb-3" style="width: 100%; min-height: 52vh;">
+            <img class="card-img-top" src="./images/ad_entorno/ad_en_21.png" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title text-success">Secuencias</h5>
+              <p class="card-text">Accede a la configuración de secuencias automáticas de Iluminación.</p>
+            </div>
+            <div class="marg-boton">
+              <a href="#" class="btn btn-secondary">Añadir</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-2">
+          <div class="card border-info mb-3" style="width: 100%; min-height: 52vh;">
+            <img class="card-img-top" src="./images/ad_entorno/ad_en_22.png" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title text-info">Clima</h5>
+              <p class="card-text">Obten la informacion y pronóstico del clima.</p>
+            </div>
+            <div class="marg-boton">
+              <a href="#" class="btn btn-success">Quitar</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-2">
+          <div class="card border-info mb-3" style="width: 100%; min-height: 52vh;">
+            <img class="card-img-top" src="./images/ad_entorno/ad_en_23.png" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title text-info">Calidad del Aire</h5>
+              <p class="card-text">Accede a la configuracion y activación de los Filtros de aire.</p>
+            </div>
+            <div class="marg-boton">
+              <a href="#" class="btn btn-secondary">Añadir</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-2">
+          <div class="card border-info mb-3" style="width: 100%; min-height: 52vh;">
+            <img class="card-img-top" src="./images/ad_entorno/ad_en_24.png" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title text-info">Termostato</h5>
+              <p class="card-text">Controla directamente la temperatura.</p>
+            </div>
+            <div class="marg-boton">
+              <a href="#" class="btn btn-success">Quitar</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-2">
+          <div class="card border-info mb-3" style="width: 100%; min-height: 52vh;">
+            <img class="card-img-top" src="./images/ad_entorno/ad_en_25.png" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title text-info">Secuencias</h5>
+              <p class="card-text">Accede a la configuración de secuencias automáticas de Climatización.</p>
+            </div>
+            <div class="marg-boton">
+              <a href="#" class="btn btn-secondary">Añadir</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-2">
+          <div class="card border-artefactos" style="width: 100%; min-height: 52vh;">
+            <img class="card-img-top" src="./images/ad_entorno/ad_en_26.png" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title text-artefactos">Stand By</h5>
+              <p class="card-text">Pon facilmente en stand-by los artefactos que no uses temporalmente.</p>
+            </div>
+            <div class="marg-boton">
+              <a href="#" class="btn btn-success">Quitar</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-2">
+          <div class="card border-artefactos" style="width: 100%; min-height: 52vh;">
+            <img class="card-img-top" src="./images/ad_entorno/ad_en_27.png" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title text-artefactos">Eficiencia Energética</h5>
+              <p class="card-text">Accede a las configuraciones y estadisticas Energéticas del entorno Artefactos.</p>
+            </div>
+            <div class="marg-boton">
+              <a href="#" class="btn btn-secondary">Añadir</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-2">
+          <div class="card border-artefactos" style="width: 100%; min-height: 52vh;">
+            <img class="card-img-top" src="./images/ad_entorno/ad_en_28.png" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title text-artefactos">Agregar Elemento</h5>
+              <p class="card-text">Agregar elemento facilmente para acceder a sus opciones particulares</p>
+            </div>
+            <div class="marg-boton">
+              <a href="#" class="btn btn-secondary">Añadir</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-2">
+          <div class="card border-artefactos mb-3" style="width: 100%; min-height: 52vh;">
+            <img class="card-img-top" src="./images/ad_entorno/ad_en_29.png" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title text-artefactos">Secuencias</h5>
+              <p class="card-text">Accede a la configuración de secuencias automáticas de los Artefactos.</p>
+            </div>
+            <div class="marg-boton">
+              <a href="#" class="btn btn-secondary">Añadir</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-2">
+          <div class="card border-audio" style="width: 100%; min-height: 52vh;">
+            <img class="card-img-top" src="./images/ad_entorno/ad_en_30.png" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title text-audio">Volumen</h5>
+              <p class="card-text">Accedé sin vueltas al control de volumen.</p>
+            </div>
+            <div class="marg-boton">
+              <a href="#" class="btn btn-secondary">Añadir</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-2">
+          <div class="card border-audio" style="width: 100%; min-height: 52vh;">
+            <img class="card-img-top" src="./images/ad_entorno/ad_en_31.png" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title text-audio">Sonido</h5>
+              <p class="card-text">Configurá de manera directa los ajustes de sonido.</p>
+            </div>
+            <div class="marg-boton">
+              <a href="#" class="btn btn-success">Quitar</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-2">
+          <div class="card border-audio" style="width: 100%; min-height: 52vh;">
+            <img class="card-img-top" src="./images/ad_entorno/ad_en_32.png" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title text-audio">Entradas y Salidas de audio</h5>
+              <p class="card-text">Controlá y configura las entradas y salidas de audio.</p>
+            </div>
+            <div class="marg-boton">
+              <a href="#" class="btn btn-secondary">Añadir</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-2">
+          <div class="card border-audio mb-3" style="width: 100%; min-height: 52vh;">
+            <img class="card-img-top" src="./images/ad_entorno/ad_en_33.png" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title text-audio">Secuencias</h5>
+              <p class="card-text">Accede a la configuración de secuencias automáticas de Sonido.</p>
+            </div>
+            <div class="marg-boton">
+              <a href="#" class="btn btn-secondary">Añadir</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row justify-content-end mrg-sup-form">
+        <div class="col-auto marg-der">
+          <a href="elemento_nuevo.html" class="card-text"><img src="./images/icons/icons_submenu/agregar/Agregar_go.png" class="ico-home">Añadir interacción externa</a>
+        </div>
+      </div>
+      <div class="row justify-content-end mrg-sup-form">
+        <div class="col-auto">
+          <button type="button" class="btn btn-outline-secondary">Descartar</button>
+          <button type="button" class="btn btn-dark">Guardar cambios</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Fin Entorno Novedades -->
+
+  </div>
+</div>
+
+<!-- Menu Inferior -->
+<!-- Celulares -->
+      <div class="d-lg-none">
+        <div class="container-fluid menu-espacios-celu fixed-bottom">
+<!-- Menu Espacios-->
+          <div class="row justify-content-between align-items-center go">
+            <div class="col-1">
+              <div class="dropdown show">
+                <a class="dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  <img src="./images/icons/icons_espacios/Casa_bl.png" alt="" class="ico-celu">
+                </a>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                  <a class="dropdown-item" href="#"><img src="./images/icons/icons_espacios/Hall_go.png" class="ico-home">Hall</a>
+                  <a class="dropdown-item" href="#"><img src="./images/icons/icons_espacios/Cocina_go.png" class="ico-home">Cocina</a>
+                  <a class="dropdown-item" href="#"><img src="./images/icons/icons_espacios/Comedor_go.png" class="ico-home">Comedor</a>
+                  <a class="dropdown-item" href="#"><img src="./images/icons/icons_espacios/Living_go.png" class="ico-home">Living</a>
+                  <a class="dropdown-item" href="#"><img src="./images/icons/icons_espacios/Toillette_go.png" class="ico-home">Toillette</a>
+                  <a class="dropdown-item" href="#"><img src="./images/icons/icons_espacios/Baño_go.png" class="ico-home">Baño</a>
+                  <a class="dropdown-item" href="#"><img src="./images/icons/icons_espacios/Lavadero_go.png" class="ico-home">Lavadero</a>
+                  <a class="dropdown-item" href="#"><img src="./images/icons/icons_espacios/Oficina_go.png" class="ico-home">Oficina</a>
+                  <a class="dropdown-item" href="#"><img src="./images/icons/icons_espacios/Dormitorio_1_go.png" class="ico-home">Dormitorio 1</a>
+                  <a class="dropdown-item" href="#"><img src="./images/icons/icons_espacios/Balcon_go.png" class="ico-home">Balcón</a>
+                  <a class="dropdown-item" href="#"><img src="./images/icons/icons_espacios/Dormitorio_2_go.png" class="ico-home">Dormitorio 2</a>
+                  <a class="dropdown-item" href="#"><img src="./images/icons/icons_espacios/Dormitorio_3_go.png" class="ico-home">Dormitorio 3</a>
+                  <a class="dropdown-item" href="#"><img src="./images/icons/icons_espacios/Dormitorio_4_go.png" class="ico-home">Dormitorio 4</a>
+                  <a class="dropdown-item" href="#"><img src="./images/icons/icons_espacios/Ocupado_go.png" class="ico-home">Ocupado</a>
+                  <a class="dropdown-item" href="#"><img src="./images/icons/icons_espacios/Sala_de_juegos_go.png" class="ico-home">Sala de juegos</a>
+                  <a class="dropdown-item" href="#"><img src="./images/icons/icons_espacios/Sala_de_maquinas_go.png" class="ico-home">Sala de maquinas</a>
+                  <a class="dropdown-item" href="#"><img src="./images/icons/icons_espacios/Deposito_go.png" class="ico-home">Deposito</a>
+                  <a class="dropdown-item" href="#"><img src="./images/icons/icons_espacios/Taller_go.png" class="ico-home">Taller</a>
+                  <a class="dropdown-item" href="#"><img src="./images/icons/icons_espacios/Patio_go.png" class="ico-home">Patio</a>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <a href="espacio_nuevo.html" target="new" onMouseOver="MM_swapImage('agregar-espacio','','./images/icons/icons_submenu/agregar/Agregar_bl.png',1)" onMouseOut="MM_swapImgRestore()"><img src="./images/icons/icons_submenu/agregar/Agregar_gc.png" alt="" class="ico-menu-celu float-right" id="agregar-espacio" data-toggle="tooltip" title="Agregar espacio"></a>
+              <a href="espacio_usuarios.html" target="new" onMouseOver="MM_swapImage('configurar-jerarquia','','./images/icons/icons_submenu/sesion/Usuario_bl_tgo.png',1)" onMouseOut="MM_swapImgRestore()"><img src="./images/icons/icons_submenu/sesion/Usuario_gc_tgo.png" alt="" class="ico-menu-celu float-right" id="configurar-jerarquia" data-toggle="tooltip" title="Usuarios"></a>
+              <a href="selec_vista.html" target="new" onMouseOver="MM_swapImage('seleccionar-vista','','./images/icons/icons_submenu/sesion/vista-3d_bl_tgo.png',1)" onMouseOut="MM_swapImgRestore()"><img src="./images/icons/icons_submenu/sesion/vista-3d_gc_tgo.png" alt="" class="ico-menu-celu float-right" id="seleccionar-vista" data-toggle="tooltip" title="Vista"></a>
+            </div>
+          </div>
+        </div>
+      </div>
+<!-- PCS -->
+      <div class="d-none d-lg-block">
+        <div class="container-fluid menu-espacios-pcs fixed-bottom">
+<!-- Menu Espacios-->
+          <div class="row align-items-center go">
+            <div class="col-2">
+            </div>
+            <div class="col-8">
+              <div class="row d-flex justify-content-center align-items-center">
+                <div class="col">
+                  <img src="./images/icons/icons_espacios/Casa_bl.png" alt="" class="ico">
+                  <a href="" target="new" onMouseOver="MM_swapImage('hall','','./images/icons/icons_espacios/Hall_bl_slim.png',1)" onMouseOut="MM_swapImgRestore()"><img src="./images/icons/icons_espacios/Hall_gc_slim.png" alt="" class="ico" id="hall" data-toggle="tooltip" title="Hall"></a>
+                  <a href="" target="new" onMouseOver="MM_swapImage('cocina','','./images/icons/icons_espacios/Cocina_bl_slim.png',1)" onMouseOut="MM_swapImgRestore()"><img src="./images/icons/icons_espacios/Cocina_gc_slim.png" alt="" class="ico" id="cocina" data-toggle="tooltip" title="Cocina"></a>
+                  <a href="" target="new" onMouseOver="MM_swapImage('comedor','','./images/icons/icons_espacios/Comedor_bl_slim.png',1)" onMouseOut="MM_swapImgRestore()"><img src="./images/icons/icons_espacios/Comedor_gc_slim.png" alt="" class="ico" id="comedor" data-toggle="tooltip" title="Comedor"></a>
+                  <a href="" target="new" onMouseOver="MM_swapImage('living','','./images/icons/icons_espacios/Living_bl_slim.png',1)" onMouseOut="MM_swapImgRestore()"><img src="./images/icons/icons_espacios/Living_gc_slim.png" alt="" class="ico" id="living" data-toggle="tooltip" title="Living"></a>
+                  <a href="" target="new" onMouseOver="MM_swapImage('toillette','','./images/icons/icons_espacios/Toillette_bl_slim.png',1)" onMouseOut="MM_swapImgRestore()"><img src="./images/icons/icons_espacios/Toillette_gc_slim.png" alt="" class="ico" id="toillette" data-toggle="tooltip" title="Toillette"></a>
+                  <a href="" target="new" onMouseOver="MM_swapImage('baño','','./images/icons/icons_espacios/Baño_bl_slim.png',1)" onMouseOut="MM_swapImgRestore()"><img src="./images/icons/icons_espacios/Baño_gc_slim.png" alt="" class="ico" id="baño" data-toggle="tooltip" title="Baño"></a>
+                  <a href="" target="new" onMouseOver="MM_swapImage('lavadero','','./images/icons/icons_espacios/Lavadero_bl_slim.png',1)" onMouseOut="MM_swapImgRestore()"><img src="./images/icons/icons_espacios/Lavadero_gc_slim.png" alt="" class="ico" id="lavadero" data-toggle="tooltip" title="Lavadero"></a>
+                  <a href="" target="new" onMouseOver="MM_swapImage('oficina','','./images/icons/icons_espacios/Oficina_bl_slim.png',1)" onMouseOut="MM_swapImgRestore()"><img src="./images/icons/icons_espacios/Oficina_gc_slim.png" alt="" class="ico" id="oficina" data-toggle="tooltip" title="Oficina"></a>
+                  <a href="" target="new" onMouseOver="MM_swapImage('dormitorio_1','','./images/icons/icons_espacios/Dormitorio_1_bl_slim.png',1)" onMouseOut="MM_swapImgRestore()"><img src="./images/icons/icons_espacios/Dormitorio_1_gc_slim.png" alt="" class="ico" id="dormitorio_1" data-toggle="tooltip" title="Dormitorio 1"></a>
+                  <a href="" target="new" onMouseOver="MM_swapImage('balcon','','./images/icons/icons_espacios/Balcon_bl_slim.png',1)" onMouseOut="MM_swapImgRestore()"><img src="./images/icons/icons_espacios/Balcon_gc_slim.png" alt="" class="ico" id="balcon" data-toggle="tooltip" title="Balcón"></a>
+                  <a href="" target="new" onMouseOver="MM_swapImage('dormitorio_2','','./images/icons/icons_espacios/Dormitorio_2_bl_slim.png',1)" onMouseOut="MM_swapImgRestore()"><img src="./images/icons/icons_espacios/Dormitorio_2_gc_slim.png" alt="" class="ico" id="dormitorio_2" data-toggle="tooltip" title="Dormitorio 2"></a>
+                  <a href="" target="new" onMouseOver="MM_swapImage('dormitorio_3','','./images/icons/icons_espacios/Dormitorio_3_bl_slim.png',1)" onMouseOut="MM_swapImgRestore()"><img src="./images/icons/icons_espacios/Dormitorio_3_gc_slim.png" alt="" class="ico" id="dormitorio_3" data-toggle="tooltip" title="Dormitorio 3"></a>
+                  <a href="" target="new" onMouseOver="MM_swapImage('dormitorio_4','','./images/icons/icons_espacios/Dormitorio_4_bl_slim.png',1)" onMouseOut="MM_swapImgRestore()"><img src="./images/icons/icons_espacios/Dormitorio_4_gc_slim.png" alt="" class="ico" id="dormitorio_4" data-toggle="tooltip" title="Dormitorio 4"></a>
+                  <a href="" target="new" onMouseOver="MM_swapImage('ocupado','','./images/icons/icons_espacios/Ocupado_bl_slim.png',1)" onMouseOut="MM_swapImgRestore()"><img src="./images/icons/icons_espacios/Ocupado_gc_slim.png" alt="" class="ico" id="ocupado" data-toggle="tooltip" title="Ocupado"></a>
+                  <a href="" target="new" onMouseOver="MM_swapImage('sala_de_juegos','','./images/icons/icons_espacios/Sala_de_juegos_bl_slim.png',1)" onMouseOut="MM_swapImgRestore()"><img src="./images/icons/icons_espacios/Sala_de_juegos_gc_slim.png" alt="" class="ico" id="sala_de_juegos" data-toggle="tooltip" title="Sala de juegos"></a>
+                  <a href="" target="new" onMouseOver="MM_swapImage('sala_de_maquinas','','./images/icons/icons_espacios/Sala_de_maquinas_bl_slim.png',1)" onMouseOut="MM_swapImgRestore()"><img src="./images/icons/icons_espacios/Sala_de_maquinas_gc_slim.png" alt="" class="ico" id="sala_de_maquinas" data-toggle="tooltip" title="Sala de máquinas"></a>
+                  <a href="" target="new" onMouseOver="MM_swapImage('deposito','','./images/icons/icons_espacios/Deposito_bl_slim.png',1)" onMouseOut="MM_swapImgRestore()"><img src="./images/icons/icons_espacios/Deposito_gc_slim.png" alt="" class="ico" id="deposito" data-toggle="tooltip" title="Depósito"></a>
+                  <a href="" target="new" onMouseOver="MM_swapImage('taller','','./images/icons/icons_espacios/Taller_bl_slim.png',1)" onMouseOut="MM_swapImgRestore()"><img src="./images/icons/icons_espacios/Taller_gc_slim.png" alt="" class="ico" id="taller" data-toggle="tooltip" title="Taller"></a>
+                  <a href="" target="new" onMouseOver="MM_swapImage('patio','','./images/icons/icons_espacios/Patio_bl_slim.png',1)" onMouseOut="MM_swapImgRestore()"><img src="./images/icons/icons_espacios/Patio_gc_slim.png" alt="" class="ico" id="patio" data-toggle="tooltip" title="Patio"></a>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <a href="espacio_nuevo.html" target="new" onMouseOver="MM_swapImage('ag-esp','','./images/icons/icons_submenu/agregar/Agregar_bl.png',1)" onMouseOut="MM_swapImgRestore()"><img src="./images/icons/icons_submenu/agregar/Agregar_gc.png" alt="" class="ico-menu float-right" id="ag-esp" data-toggle="tooltip" title="Agregar espacio"></a>
+              <a href="espacio_usuarios.html" target="new" onMouseOver="MM_swapImage('conf-jer','','./images/icons/icons_submenu/sesion/Usuario_bl_tgo.png',1)" onMouseOut="MM_swapImgRestore()"><img src="./images/icons/icons_submenu/sesion/Usuario_gc_tgo.png" alt="" class="ico-menu float-right" id="conf-jer" data-toggle="tooltip" title="Usuarios"></a>
+              <a href="selec_vista.html" target="new" onMouseOver="MM_swapImage('sel-vista','','./images/icons/icons_submenu/sesion/vista-3d_bl_tgo.png',1)" onMouseOut="MM_swapImgRestore()"><img src="./images/icons/icons_submenu/sesion/vista-3d_gc_tgo.png" alt="" class="ico-menu float-right" id="sel-vista" data-toggle="tooltip" title="Vista"></a>
+            </div>
+          </div>
+        </div>
+      </div>
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+      <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+      <script src="./js/bootstrap.js"></script>
+      <script src="./js/selectImgClima.js"></script>
+      <script src="./js/selectDateClima.js"></script>
+      <script>
+                $(function () {
+        $('[data-toggle="popover"]').popover()
+      })
+        </script>
+        <script type="text/javascript">
+                $(function () {
+            $('[data-toggle="tooltip"]').tooltip()
+            })
+        </script>
+        <script type="text/javascript">
+            function MM_swapImgRestore() { //v3.0
+              var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+            }
+            function MM_preloadImages() { //v3.0
+              var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+                var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+                if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+            }
+
+            function MM_findObj(n, d) { //v4.01
+              var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+                d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+              if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+              for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+              if(!x && d.getElementById) x=d.getElementById(n); return x;
+            }
+
+            function MM_swapImage() { //v3.0
+              var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+               if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+            }
+        </script>
+    </body>
+  </html>

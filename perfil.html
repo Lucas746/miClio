@@ -75,9 +75,9 @@
 <div class="container-fluid margen menu-seleccion gm">
   <div class="container margen-menu">
 
-<!-- Datos Personales -->
+<!-- Datos Personales PC-->
 
-    <div class="row">
+    <div class="row d-none d-lg-block">
       <div class="card mb-3" style="min-width: 100%;">
         <div class="card-header">Editar Perfil</div>
         <div class="card-body">
@@ -131,10 +131,63 @@
       </div>
     </div>
 
-<!-- Fin Datos Personales -->
-<!-- Pasword -->
+<!-- Fin Datos Personales PC-->
+<!-- Datos Personales CELU-->
 
-<div class="row">
+    <div class="row d-lg-none">
+      <div class="card mb-3" style="min-width: 100%;">
+        <div class="card-header">Editar Perfil</div>
+        <div class="card-body">
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col">
+                <div class="row mrg-sup-form">
+                  <label class="card-text">Cambiar imagen de perfil</label>
+                </div>
+                <div class="row">
+                  <a href="" target="new"><img src="./images/users/perfil3.jpg" alt="" class="ico-edit-tarjeta rounded" data-toggle="tooltip" title="Cambiar Imagen"></a>
+                </div>
+                <div class="row mrg-sup-form">
+                  <label class="card-text">Nombre</label>
+                </div>
+                <div class="row">
+                  <input type="text" class="form-control" placeholder="Elliot">
+                </div>
+                <div class="row mrg-sup-form">
+                  <label class="card-text">Apellido</label>
+                </div>
+                <div class="row">
+                  <input type="text" class="form-control" placeholder="Alderson">
+                </div>
+                <div class="row mrg-sup-form">
+                  <label class="card-text">eMail</label>
+                </div>
+                <div class="row">
+                  <input type="email" class="form-control" id="inputEmail4" placeholder="elliotalderson@gmail.com">
+                </div>
+                <div class="row mrg-sup-form">
+                  <label class="card-text">Teléfono</label>
+                </div>
+                <div class="row">
+                  <input type="text" class="form-control" placeholder="+54 294 431 3745">
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row justify-content-end mrg-sup-form">
+            <div class="col-auto">
+              <button type="button" class="btn btn-outline-secondary">Descartar</button>
+              <button type="button" class="btn btn-dark">Guardar cambios</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+<!-- Fin Datos Personales CELU-->
+<!-- Pasword PC-->
+
+<div class="row d-none d-lg-block">
   <div class="card mb-3" style="min-width: 100%;">
     <div class="card-header">Cambiar Contraseña</div>
     <div class="card-body">
@@ -172,10 +225,51 @@
   </div>
 </div>
 
-<!-- Fin Pasword -->
-<!-- Espacios -->
+<!-- Fin Pasword PC-->
+<!-- Pasword CELU-->
 
-<div class="row">
+<div class="row d-lg-none">
+  <div class="card mb-3" style="min-width: 100%;">
+    <div class="card-header">Cambiar Contraseña</div>
+    <div class="card-body">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col">
+            <div class="row mrg-sup-form">
+              <label class="card-text">Contraseña actual</label>
+            </div>
+            <div class="row">
+              <input type="password" class="form-control" id="" placeholder="Contraseña actual">
+            </div>
+            <div class="row mrg-sup-form">
+              <label class="card-text">Contraseña nueva</label>
+            </div>
+            <div class="row">
+              <input type="password" class="form-control" id="" placeholder="Contraseña nueva">
+            </div>
+            <div class="row mrg-sup-form">
+              <label class="card-text">Repetir contraseña nueva</label>
+            </div>
+            <div class="row">
+              <input type="password" class="form-control" id="" placeholder="Repetir contraseña nueva">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row justify-content-end mrg-sup-form">
+        <div class="col-auto">
+          <button type="button" class="btn btn-outline-secondary">Descartar</button>
+          <button type="button" class="btn btn-dark">Guardar cambios</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Fin Pasword CELU-->
+<!-- Espacios PC-->
+
+<div class="row d-none d-lg-block">
   <div class="card mb-3" style="min-width: 100%;">
     <div class="card-header">Administrar ubicaciones</div>
     <div class="card-body">
@@ -216,10 +310,54 @@
   </div>
 </div>
 
-<!-- Fin Espacios -->
-<!-- Entorno Novedades -->
+<!-- Fin Espacios PC-->
+<!-- Espacios CELU-->
 
-<div class="row">
+<div class="row d-lg-none">
+  <div class="card mb-3" style="min-width: 100%;">
+    <div class="card-header">Administrar ubicaciones</div>
+    <div class="card-body">
+      <div class="row mrg-sup-form">
+        <div class="col-9">
+          <label class="card-text"><img src="./images/icons/icons_submenu/sesion/estado_ve.png" class="ico-home">Casa</label>
+        </div>
+        <div class="col-1">
+          <label class="card-text"><img src="./images/icons/icons_submenu/sesion/Usuario_gc.png" class="ico-home"></label>
+        </div>
+        <div class="col-1">
+          <a href="ubicacion_casa.html" class="card-text"><img src="./images/icons/icons_submenu/sesion/configuracion_gc.png" class="ico-home"></a>
+        </div>
+      </div>
+      <div class="row mrg-sup-form">
+        <div class="col-9">
+          <label class="card-text"><img src="./images/icons/icons_submenu/sesion/estado_gc.png" class="ico-home">Oficina</label>
+        </div>
+        <div class="col-1">
+          <label class="card-text"><img src="./images/icons/icons_submenu/sesion/Usuario_gc.png" class="ico-home"></label>
+        </div>
+        <div class="col-1">
+          <a href="ubicacion_oficina.html" class="card-text"><img src="./images/icons/icons_submenu/sesion/configuracion_gc.png" class="ico-home"></a>
+        </div>
+      </div>
+      <div class="row mrg-sup-form">
+        <div class="col">
+          <a href="ubicacion_nueva.html" class="card-text"><img src="./images/icons/icons_submenu/agregar/Agregar_gc_bl.png" class="ico-home">Añadir ubicacion</a>
+        </div>
+      </div>
+      <div class="row justify-content-end mrg-sup-form">
+        <div class="col-auto">
+          <button type="button" class="btn btn-outline-secondary">Descartar</button>
+          <button type="button" class="btn btn-dark">Guardar cambios</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Fin Espacios CELU-->
+<!-- Entorno Novedades PC-->
+
+<div class="row d-none d-lg-block">
   <div class="card mb-3" style="min-width: 100%;">
     <div class="card-header">Administrar Entorno de Novedades</div>
     <div class="card-body">
@@ -636,7 +774,495 @@
   </div>
 </div>
 
-<!-- Fin Entorno Novedades -->
+<!-- Fin Entorno Novedades PC-->
+<!-- Entorno Novedades CELU-->
+
+<div class="row d-lg-none">
+  <div class="card mb-3" style="min-width: 100%;">
+    <div class="card-header">Administrar Entorno de Novedades</div>
+    <div class="card-body">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col">
+            <div class="card" style="width: 100%; min-height: 52vh;">
+              <img class="card-img-top" src="./images/ad_entorno/ad_en_01.png" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Espacios</h5>
+                <p class="card-text">Selecciona de manera directa el espacio a interactuar.</p>
+              </div>
+              <div class="marg-boton">
+                <a href="#" class="btn btn-success">Quitar</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row mrg-sup-audio">
+          <div class="col">
+            <div class="card" style="width: 100%; min-height: 52vh;">
+              <img class="card-img-top" src="./images/ad_entorno/ad_en_02.png" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Lista de Compras</h5>
+                <p class="card-text">Comparte una lista de compras con tus compañeros de hogar.</p>
+              </div>
+              <div class="marg-boton">
+                <a href="#" class="btn btn-success">Quitar</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row mrg-sup-audio">
+          <div class="col">
+            <div class="card" style="width: 100%; min-height: 52vh;">
+              <img class="card-img-top" src="./images/ad_entorno/ad_en_03.png" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Mensajes</h5>
+                <p class="card-text">Comparte mensajes e imagenes con tus compañeros de hogar.</p>
+              </div>
+              <div class="marg-boton">
+                <a href="#" class="btn btn-success">Quitar</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row mrg-sup-audio">
+          <div class="col">
+            <div class="card" style="width: 100%; min-height: 52vh;">
+              <img class="card-img-top" src="./images/ad_entorno/ad_en_04.png" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Sugerencias</h5>
+                <p class="card-text">Recibe sugerencias para optimizar el consumo y rendimiento de tu hogar.</p>
+              </div>
+              <div class="marg-boton">
+                <a href="#" class="btn btn-success">Quitar</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row mrg-sup-audio">
+          <div class="col">
+            <div class="card" style="width: 100%; min-height: 52vh;">
+              <img class="card-img-top" src="./images/ad_entorno/ad_en_05.png" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Secuencias</h5>
+                <p class="card-text">Administra las programaciones de todos los entornos.</p>
+              </div>
+              <div class="marg-boton">
+                <a href="#" class="btn btn-secondary">Añadir</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row mrg-sup-audio">
+          <div class="col">
+            <div class="card border-danger mb-3" style="width: 100%; min-height: 52vh;">
+              <img class="card-img-top" src="./images/ad_entorno/ad_en_06.png" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title text-danger">Alarma</h5>
+                <p class="card-text">Activa o desactiva inmediatamente la alarma.</p>
+              </div>
+              <div class="marg-boton">
+                <a href="#" class="btn btn-success">Quitar</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row mrg-sup-audio">
+          <div class="col">
+            <div class="card border-danger mb-3" style="width: 100%; min-height: 52vh;">
+              <img class="card-img-top" src="./images/ad_entorno/ad_en_07.png" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title text-danger">Cámaras</h5>
+                <p class="card-text">Visualiza y accede de manera inmediata a tus cámaras de seguridad.</p>
+              </div>
+              <div class="marg-boton">
+                <a href="#" class="btn btn-success">Quitar</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row mrg-sup-audio">
+          <div class="col">
+            <div class="card border-danger mb-3" style="width: 100%; min-height: 52vh;">
+              <img class="card-img-top" src="./images/ad_entorno/ad_en_08.png" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title text-danger">Alertas</h5>
+                <p class="card-text">Recibe notificaciones instantaneas de cualquier suceso de relevancia con respecto a la seguridad.</p>
+              </div>
+              <div class="marg-boton">
+                <a href="#" class="btn btn-success">Quitar</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row mrg-sup-audio">
+          <div class="col">
+            <div class="card border-danger mb-3" style="width: 100%; min-height: 52vh;">
+              <img class="card-img-top" src="./images/ad_entorno/ad_en_09.png" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title text-danger">Secuencias</h5>
+                <p class="card-text">Accede a la configuración de secuencias automáticas de Seguridad.</p>
+              </div>
+              <div class="marg-boton">
+                <a href="#" class="btn btn-secondary">Añadir</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row mrg-sup-audio">
+          <div class="col">
+            <div class="card border-aberturas" style="width: 100%; min-height: 52vh;">
+              <img class="card-img-top" src="./images/ad_entorno/ad_en_10.png" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title text-aberturas">Abrir/Cerrar Todo</h5>
+                <p class="card-text">Dispara rapidamente la secuencia para abrir o cerrar todas las aberturas en simultaneo.</p>
+              </div>
+              <div class="marg-boton">
+                <a href="#" class="btn btn-success">Quitar</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row mrg-sup-audio">
+          <div class="col">
+            <div class="card border-aberturas" style="width: 100%; min-height: 52vh;">
+              <img class="card-img-top" src="./images/ad_entorno/ad_en_11.png" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title text-aberturas">Ventilación</h5>
+                <p class="card-text">Accede a la configuracion y manejo de la ventilación.</p>
+              </div>
+              <div class="marg-boton">
+                <a href="#" class="btn btn-secondary">Añadir</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row mrg-sup-audio">
+          <div class="col">
+            <div class="card border-aberturas" style="width: 100%; min-height: 52vh;">
+              <img class="card-img-top" src="./images/ad_entorno/ad_en_12.png" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title text-aberturas">Luz Natural</h5>
+                <p class="card-text">Regular automaticamente las aberturas para la optimización de luz natural</p>
+              </div>
+              <div class="marg-boton">
+                <a href="#" class="btn btn-secondary">Añadir</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row mrg-sup-audio">
+          <div class="col">
+            <div class="card border-aberturas" style="width: 100%; min-height: 52vh;">
+              <img class="card-img-top" src="./images/ad_entorno/ad_en_13.png" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title text-aberturas">Secuencias</h5>
+                <p class="card-text">Accede a la configuración de secuencias automáticas de Aberturas.</p>
+              </div>
+              <div class="marg-boton">
+                <a href="#" class="btn btn-secondary">Añadir</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row mrg-sup-audio">
+          <div class="col">
+            <div class="card border-warning mb-3" style="width: 100%; min-height: 52vh;">
+              <img class="card-img-top" src="./images/ad_entorno/ad_en_14.png" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title text-warning">Prender Todo</h5>
+                <p class="card-text">Prendé o apaga todo a un click!</p>
+              </div>
+              <div class="marg-boton">
+                <a href="#" class="btn btn-secondary">Añadir</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row mrg-sup-audio">
+          <div class="col">
+            <div class="card border-warning mb-3" style="width: 100%; min-height: 52vh;">
+              <img class="card-img-top" src="./images/ad_entorno/ad_en_15.png" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title text-warning">Eficiencia Energética</h5>
+                <p class="card-text">Accede a las configuraciones y estadisticas Energéticas del entorno Iluminación.</p>
+              </div>
+              <div class="marg-boton">
+                <a href="#" class="btn btn-secondary">Añadir</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row mrg-sup-audio">
+          <div class="col">
+            <div class="card border-warning mb-3" style="width: 100%; min-height: 52vh;">
+              <img class="card-img-top" src="./images/ad_entorno/ad_en_16.png" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title text-warning">Lampara clio</h5>
+                <p class="card-text">Accede rapidamente al entorno de tu lámpara clio.</p>
+              </div>
+              <div class="marg-boton">
+                <a href="#" class="btn btn-secondary">Añadir</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row mrg-sup-audio">
+          <div class="col">
+            <div class="card border-warning mb-3" style="width: 100%; min-height: 52vh;">
+              <img class="card-img-top" src="./images/ad_entorno/ad_en_17.png" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title text-warning">Secuencias</h5>
+                <p class="card-text">Accede a la configuración de secuencias automáticas de Iluminación.</p>
+              </div>
+              <div class="marg-boton">
+                <a href="#" class="btn btn-success">Quitar</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row mrg-sup-audio">
+          <div class="col">
+            <div class="card border-success" style="width: 100%; min-height: 52vh;">
+              <img class="card-img-top" src="./images/ad_entorno/ad_en_18.png" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title text-success">Iniciar Riego</h5>
+                <p class="card-text">Dispara rapidamente la secuencia de riego.</p>
+              </div>
+              <div class="marg-boton">
+                <a href="#" class="btn btn-success">Quitar</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row mrg-sup-audio">
+          <div class="col">
+            <div class="card border-success" style="width: 100%; min-height: 52vh;">
+              <img class="card-img-top" src="./images/ad_entorno/ad_en_19.png" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title text-success">Ambiente</h5>
+                <p class="card-text">Accede de inmediato a los datos y estadisticas del ecosistema en el que habitan tus plantas</p>
+              </div>
+              <div class="marg-boton">
+                <a href="#" class="btn btn-secondary">Añadir</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row mrg-sup-audio">
+          <div class="col">
+            <div class="card border-success" style="width: 100%; min-height: 52vh;">
+              <img class="card-img-top" src="./images/ad_entorno/ad_en_20.png" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title text-success">Especies</h5>
+                <p class="card-text">Entrá a la cononfiguracion y catálogo para un cuidado especializado.</p>
+              </div>
+              <div class="marg-boton">
+                <a href="#" class="btn btn-secondary">Añadir</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row mrg-sup-audio">
+          <div class="col">
+            <div class="card border-success mb-3" style="width: 100%; min-height: 52vh;">
+              <img class="card-img-top" src="./images/ad_entorno/ad_en_21.png" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title text-success">Secuencias</h5>
+                <p class="card-text">Accede a la configuración de secuencias automáticas de Iluminación.</p>
+              </div>
+              <div class="marg-boton">
+                <a href="#" class="btn btn-secondary">Añadir</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row mrg-sup-audio">
+          <div class="col">
+            <div class="card border-info mb-3" style="width: 100%; min-height: 52vh;">
+              <img class="card-img-top" src="./images/ad_entorno/ad_en_22.png" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title text-info">Clima</h5>
+                <p class="card-text">Obten la informacion y pronóstico del clima.</p>
+              </div>
+              <div class="marg-boton">
+                <a href="#" class="btn btn-success">Quitar</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row mrg-sup-audio">
+          <div class="col">
+            <div class="card border-info mb-3" style="width: 100%; min-height: 52vh;">
+              <img class="card-img-top" src="./images/ad_entorno/ad_en_23.png" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title text-info">Calidad del Aire</h5>
+                <p class="card-text">Accede a la configuracion y activación de los Filtros de aire.</p>
+              </div>
+              <div class="marg-boton">
+                <a href="#" class="btn btn-secondary">Añadir</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row mrg-sup-audio">
+          <div class="col">
+            <div class="card border-info mb-3" style="width: 100%; min-height: 52vh;">
+              <img class="card-img-top" src="./images/ad_entorno/ad_en_24.png" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title text-info">Termostato</h5>
+                <p class="card-text">Controla directamente la temperatura.</p>
+              </div>
+              <div class="marg-boton">
+                <a href="#" class="btn btn-success">Quitar</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row mrg-sup-audio">
+          <div class="col">
+            <div class="card border-info mb-3" style="width: 100%; min-height: 52vh;">
+              <img class="card-img-top" src="./images/ad_entorno/ad_en_25.png" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title text-info">Secuencias</h5>
+                <p class="card-text">Accede a la configuración de secuencias automáticas de Climatización.</p>
+              </div>
+              <div class="marg-boton">
+                <a href="#" class="btn btn-secondary">Añadir</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row mrg-sup-audio">
+          <div class="col">
+            <div class="card border-artefactos" style="width: 100%; min-height: 52vh;">
+              <img class="card-img-top" src="./images/ad_entorno/ad_en_26.png" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title text-artefactos">Stand By</h5>
+                <p class="card-text">Pon facilmente en stand-by los artefactos que no uses temporalmente.</p>
+              </div>
+              <div class="marg-boton">
+                <a href="#" class="btn btn-success">Quitar</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row mrg-sup-audio">
+          <div class="col">
+            <div class="card border-artefactos" style="width: 100%; min-height: 52vh;">
+              <img class="card-img-top" src="./images/ad_entorno/ad_en_27.png" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title text-artefactos">Eficiencia Energética</h5>
+                <p class="card-text">Accede a las configuraciones y estadisticas Energéticas del entorno Artefactos.</p>
+              </div>
+              <div class="marg-boton">
+                <a href="#" class="btn btn-secondary">Añadir</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row mrg-sup-audio">
+          <div class="col">
+            <div class="card border-artefactos" style="width: 100%; min-height: 52vh;">
+              <img class="card-img-top" src="./images/ad_entorno/ad_en_28.png" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title text-artefactos">Agregar Elemento</h5>
+                <p class="card-text">Agregar elemento facilmente para acceder a sus opciones particulares</p>
+              </div>
+              <div class="marg-boton">
+                <a href="#" class="btn btn-secondary">Añadir</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row mrg-sup-audio">
+          <div class="col">
+            <div class="card border-artefactos mb-3" style="width: 100%; min-height: 52vh;">
+              <img class="card-img-top" src="./images/ad_entorno/ad_en_29.png" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title text-artefactos">Secuencias</h5>
+                <p class="card-text">Accede a la configuración de secuencias automáticas de los Artefactos.</p>
+              </div>
+              <div class="marg-boton">
+                <a href="#" class="btn btn-secondary">Añadir</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row mrg-sup-audio">
+          <div class="col">
+            <div class="card border-audio" style="width: 100%; min-height: 52vh;">
+              <img class="card-img-top" src="./images/ad_entorno/ad_en_30.png" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title text-audio">Volumen</h5>
+                <p class="card-text">Accedé sin vueltas al control de volumen.</p>
+              </div>
+              <div class="marg-boton">
+                <a href="#" class="btn btn-secondary">Añadir</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row mrg-sup-audio">
+          <div class="col">
+            <div class="card border-audio" style="width: 100%; min-height: 52vh;">
+              <img class="card-img-top" src="./images/ad_entorno/ad_en_31.png" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title text-audio">Sonido</h5>
+                <p class="card-text">Configurá de manera directa los ajustes de sonido.</p>
+              </div>
+              <div class="marg-boton">
+                <a href="#" class="btn btn-success">Quitar</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row mrg-sup-audio">
+          <div class="col">
+            <div class="card border-audio" style="width: 100%; min-height: 52vh;">
+              <img class="card-img-top" src="./images/ad_entorno/ad_en_32.png" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title text-audio">Entradas y Salidas de audio</h5>
+                <p class="card-text">Controlá y configura las entradas y salidas de audio.</p>
+              </div>
+              <div class="marg-boton">
+                <a href="#" class="btn btn-secondary">Añadir</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row mrg-sup-audio">
+          <div class="col">
+            <div class="card border-audio mb-3" style="width: 100%; min-height: 52vh;">
+              <img class="card-img-top" src="./images/ad_entorno/ad_en_33.png" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title text-audio">Secuencias</h5>
+                <p class="card-text">Accede a la configuración de secuencias automáticas de Sonido.</p>
+              </div>
+              <div class="marg-boton">
+                <a href="#" class="btn btn-secondary">Añadir</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row justify-content-end mrg-sup-form">
+          <div class="col-auto marg-der">
+            <a href="elemento_nuevo.html" class="card-text"><img src="./images/icons/icons_submenu/agregar/Agregar_go.png" class="ico-home">Añadir interacción externa</a>
+          </div>
+        </div>
+        <div class="row justify-content-end mrg-sup-form">
+          <div class="col-auto">
+            <button type="button" class="btn btn-outline-secondary">Descartar</button>
+            <button type="button" class="btn btn-dark">Guardar cambios</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- Fin Entorno Novedades CELU-->
+
 
   </div>
 </div>

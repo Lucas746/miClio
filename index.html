@@ -15,15 +15,15 @@
     }
     body{
         background:url('./images/fondo9.jpg') no-repeat center center;
-        background-size:100% auto;
+        /*background-size:100% auto;*/
     }
     </style>
   </head>
   <body>
 
-<!-- Encabezado-->
+<!-- Encabezado PC-->
 
-  <div class="fixed-top">
+  <div class="fixed-top  d-none d-md-block">
     <header>
       <nav>
         <div class="container-fluid menu-usuario-inicio-pc">
@@ -33,7 +33,6 @@
                 <a class="dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                   <img src="./images/Logo_EstudioClio_Vertical.png" alt="Logo Estudio Clio" class="biglogo d-none d-xl-block">
                   <img src="./images/Logo_EstudioClio_Vertical.png" alt="Logo Estudio Clio" class="logo d-none d-md-block d-xl-none">
-                  <img src="./images/icons/Icono_Estudio_clio.png" alt="Logo Estudio Clio" class="ico-logo-inicio d-md-none">
                 </a>
                 <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
                   <a class="dropdown-item" href="./como_empezar.html"><img src="./images/icons/icons_submenu/sesion/Notificacion_gc.png" class="ico-home">Cómo empezar?</a>
@@ -45,7 +44,7 @@
 
   <!-- Menu Inicio de sesión PC -->
 
-            <div class="col-auto d-none d-md-block">
+            <div class="col-auto">
               <form>
                 <div class="form-row align-items-center">
                   <div class="col-auto ini">
@@ -69,15 +68,42 @@
     </header>
   </div>
 
-<!-- Fin Encabezado -->
+<!-- Fin Encabezado PC-->
+
+<!-- Encabezado CELU-->
+
+  <div class="fixed-top d-md-none">
+    <header>
+      <nav>
+        <div class="container-fluid menu-encabezado-celu">
+          <div class="row  justify-content-between">
+            <div class="col-1 animated fadeInDown">
+              <div class="dropdown show">
+                <a class="dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  <img src="./images/icons/Icono_Estudio_clio.png" alt="Logo Estudio Clio" class="ico-logo-inicio d-md-none">
+                </a>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                  <a class="dropdown-item" href="./como_empezar.html"><img src="./images/icons/icons_submenu/sesion/Notificacion_gc.png" class="ico-home">Cómo empezar?</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="http://localhost/estudioclio/" target="_blank"><img src="./images/icons/icons_submenu/sesion/web_gc.png" class="ico-home">estudioclio.com</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+  </div>
+
+<!-- Fin Encabezado CELU-->
 
 
 <!-- Menu Inicio de sesión celu -->
 <div class="container-fluid menu-usuario-inicio-celu margen d-md-none">
     <div class="row">
-      <div class="col-auto d-md-none">
+      <div class="col">
         <form>
-          <div class="form-row align-items-center ">
+          <div class="form-row align-items-center">
             <div class="col-auto ini">
               <input type="email" class="form-control" id="inputEmail4" placeholder="e-mail">
             </div>
@@ -93,7 +119,7 @@
             </div>
           </div>
           <div class="form-row align-items-center">
-            <div class="col-auto ini">
+            <div class="col-auto ini-face">
               <button type="submit" class="btn btn-fb">Iniciar Sesión <img src="./images/redes/facebook_blanco.png" class="ico-home marg-izq marg-der"></a> </button>
             </div>
           </div>

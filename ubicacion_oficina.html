@@ -75,9 +75,9 @@
 <div class="container-fluid margen menu-seleccion gm">
   <div class="container margen-menu">
 
-<!-- Administrar espacio -->
+<!-- Administrar espacio PC-->
 
-    <div class="row">
+    <div class="row d-none d-lg-block">
       <div class="card mb-3" style="min-width: 100%;">
         <div class="card-header">Administrar ubicación</div>
         <div class="card-body">
@@ -178,14 +178,133 @@
           </div>
 
           <!-- Fin Espacio -->
-
+        </div>
       </div>
     </div>
 
-<!-- Fin Administrar permisos -->
+<!-- Fin Administrar espacio PC-->
+<!-- Administrar espacio CELU-->
+
+    <div class="row d-lg-none">
+      <div class="card mb-3" style="min-width: 100%;">
+        <div class="card-header">Administrar ubicación</div>
+        <div class="card-body">
+
+        <!-- Espacio -->
+
+          <div class="row mrg-sup-form">
+            <div class="col-4">
+              <label class="card-text">Nombre</label>
+            </div>
+            <div class="col-8">
+              <input type="text" class="form-control" placeholder="Oficina">
+            </div>
+          </div>
+          <div class="row mrg-sup-form" style="min-height: auto">
+            <div class="col-4">
+              <label class="card-text">Estado</label>
+            </div>
+            <div class="col-8">
+              <div class="alert alert-secondary alert-activo" role="alert">
+                <div class="row">
+                  <div class="col-auto">
+                    Inactivo
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-auto">
+                  <button type="button" class="btn btn-outline-success" style="min-width: 100%;">Activar</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row mrg-sup-form">
+            <div class="col-4">
+              <label class="card-text">IP</label>
+            </div>
+            <div class="col-8">
+              <input type="text" class="form-control" placeholder="192.168.0.20" readonly>
+            </div>
+          </div>
+          <div class="row mrg-sup-form">
+            <div class="col-4">
+              <label class="card-text">Dominio</label>
+            </div>
+            <div class="col-8">
+              <input type="text" class="form-control" placeholder="allsafe.hs" readonly>
+            </div>
+          </div>
+          <div class="row mrg-sup-form">
+            <div class="col-4">
+              <label class="card-text">Administrador</label>
+            </div>
+            <div class="col-8">
+              <input type="email" class="form-control" id="inputEmail4" placeholder="boss@allsafe.com" readonly>
+            </div>
+          </div>
+          <div class="row mrg-sup-form">
+            <div class="col-4">
+              <label class="card-text">Teléfono</label>
+            </div>
+            <div class="col-8">
+              <input type="text" class="form-control" placeholder="+54 221 489 7666" readonly>
+            </div>
+          </div>
+          <div class="row mrg-sup-form">
+            <div class="col-4">
+              <label class="card-text">Ubicación</label>
+            </div>
+          </div>
+          <div class="row mrg-sup-form">
+            <div class="col">
+              <iframe style="width: 100%;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d772.0416499073241!2d-57.941951610422514!3d-34.91150428906946!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x15e61d9fed078f7e!2sCasa+Curutchet!5e0!3m2!1ses-419!2sar!4v1511753485365" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+            </div>
+          </div>
+          <div class="row mrg-sup-form">
+            <div class="col-4">
+              <label class="card-text">Permiso:</label>
+            </div>
+            <div class="col-8">
+              <p class="card-text">Usuario</p>
+            </div>
+          </div>
+          <div class="row mrg-sup-form">
+            <div class="col-4">
+            </div>
+            <div class="col-8">
+              <label class="card-text">Alcances:</label>
+            </div>
+          </div>
+          <div class="row mrg-sup-form">
+            <div class="col-4">
+            </div>
+            <div class="col-8">
+              <p class="card-text"><img src="./images/icons/icons_espacios/Hall_go.png" class="ico-home">Hall</p>
+              <p class="card-text"><img src="./images/icons/icons_espacios/Oficina_go.png" class="ico-home">Escritorio</p>
+              <p class="card-text"><img src="./images/icons/icons_espacios/Cocina_go.png" class="ico-home">Cocina</p>
+              <p class="card-text"><img src="./images/icons/icons_espacios/Baño_go.png" class="ico-home">Baño</p>
+            </div>
+          </div>
+          <div class="row justify-content-end mrg-sup-form">
+            <div class="col-auto">
+              <button type="button" class="btn btn-outline-secondary">Descartar</button>
+              <button type="button" class="btn btn-dark">Guardar cambios</button>
+            </div>
+          </div>
+
+          <!-- Fin Espacio -->
+        </div>
+      </div>
+    </div>
+
+<!-- Fin Administrar espacio CELU-->
 
   </div>
 </div>
+
+
+
 
 <!-- Menu Inferior -->
 <!-- Celulares -->

@@ -75,9 +75,9 @@
 <div class="container-fluid margen menu-seleccion gm">
   <div class="container margen-menu">
 
-<!-- Administrar espacio -->
+<!-- Administrar espacio PC-->
 
-    <div class="row">
+    <div class="row d-none d-lg-block">
       <div class="card mb-3" style="min-width: 100%;">
         <div class="card-header">Añadir ubicación</div>
         <div class="card-body">
@@ -204,11 +204,151 @@
             </div>
 
           <!-- Fin Espacio -->
-
+        </div>
       </div>
     </div>
 
-<!-- Fin Administrar permisos -->
+<!-- Fin Administrar espacios PC -->
+<!-- Administrar espacio CELU-->
+
+    <div class="row d-lg-none">
+      <div class="card mb-3" style="min-width: 100%;">
+        <div class="card-header">Añadir ubicación</div>
+        <div class="card-body">
+
+        <!-- Espacio -->
+
+          <div class="row mrg-sup-form">
+            <div class="col-4">
+              <label class="card-text">Nombre</label>
+            </div>
+            <div class="col-8">
+              <input type="text" class="form-control" placeholder="">
+            </div>
+          </div>
+          <div class="row mrg-sup-form">
+            <div class="col-4">
+              <label class="card-text">IP</label>
+            </div>
+            <div class="col-8">
+              <input type="text" class="form-control" placeholder="">
+            </div>
+          </div>
+          <div class="row mrg-sup-form">
+            <div class="col-4">
+              <label class="card-text">Dominio</label>
+            </div>
+            <div class="col-8">
+              <input type="text" class="form-control" placeholder="">
+            </div>
+          </div>
+          <div class="row mrg-sup-form">
+            <div class="col-4">
+              <label class="card-text">Contraseña</label>
+            </div>
+            <div class="col-8">
+              <input type="password" class="form-control" id="" placeholder="">
+            </div>
+          </div>
+          <div class="row mrg-sup-form">
+            <div class="col-4">
+              <label class="card-text">Repetir Contraseña</label>
+            </div>
+            <div class="col-8">
+              <input type="password" class="form-control" id="" placeholder="">
+            </div>
+          </div>
+          <div class="row mrg-sup-form">
+            <div class="col-4">
+              <label class="card-text">Teléfono</label>
+            </div>
+            <div class="col-8">
+              <input type="text" class="form-control" placeholder="">
+            </div>
+          </div>
+          <div class="row mrg-sup-form">
+            <div class="col-4">
+              <label class="card-text">Ubicación</label>
+            </div>
+          </div>
+          <div class="row mrg-sup-form">
+            <div class="col">
+              <iframe style="width: 100%;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d772.0416499073241!2d-57.941951610422514!3d-34.91150428906946!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x15e61d9fed078f7e!2sCasa+Curutchet!5e0!3m2!1ses-419!2sar!4v1511753485365" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+            </div>
+          </div>
+          <div class="row mrg-sup-form">
+            <div class="col-4">
+              <label class="card-text">Espacios</label>
+            </div>
+            <div class="col-8">
+              <a class="dropdown-item" href="espacio_nuevo.html"><img src="./images/icons/icons_submenu/agregar/Agregar_go.png" class="ico-home">Añadir Espacio</a>
+            </div>
+          </div>
+          <div class="row mrg-sup-form">
+            <div class="col-4">
+              <label class="card-text">Permiso:</label>
+            </div>
+            <div class="col-8">
+              <select class="form-control form-control-sm">
+                <option>Administrador</option>
+                <option>Usuario</option>
+                <option>Invitado</option>
+              </select>
+            </div>
+          </div>
+          <div class="row mrg-sup-form">
+            <div class="col-4">
+            </div>
+            <div class="col-8">
+              <label class="card-text">Otorgar Permisos</label>
+            </div>
+          </div>
+          <div class="row mrg-sup-form">
+            <div class="col-4">
+            </div>
+            <div class="col-8">
+              <input type="email" class="form-control" id="inputEmail4" placeholder="eMail">
+            </div>
+          </div>
+          <div class="row mrg-sup-form">
+            <div class="col-4">
+            </div>
+            <div class="col-8">
+              <select class="form-control">
+                <option>Invitado</option>
+                <option>Administrador</option>
+                <option>Usuario</option>
+              </select>
+            </div>
+          </div>
+          <div class="row mrg-sup-form">
+            <div class="col-4">
+            </div>
+            <div class="col-8">
+              <p class="card-text"><img src="./images/icons/icons_espacios/Casa_go.png" class="ico-home">General</p>
+              <a href="restringir_espacios.html" class="card-text"><img src="./images/icons/icons_submenu/restringir/Restringir_go.png" class="ico-home">Restringir alcance</a>
+            </div>
+          </div>
+          <div class="row mrg-sup-form">
+            <div class="col-4">
+            </div>
+            <div class="col-8">
+              <a href="#" class="card-text"><img src="./images/icons/icons_submenu/agregar/Agregar_gc_bl.png" class="ico-home">Añadir usuario</a>
+            </div>
+          </div>
+          <div class="row justify-content-end mrg-sup-form">
+            <div class="col-auto">
+              <button type="button" class="btn btn-outline-secondary">Descartar</button>
+              <button type="button" class="btn btn-dark">Añadir</button>
+            </div>
+          </div>
+
+          <!-- Fin Espacio -->
+        </div>
+      </div>
+    </div>
+
+<!-- Fin Administrar espacios CELU -->
 
   </div>
 </div>

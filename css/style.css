@@ -130,8 +130,15 @@
   float: left;
   position: absolute;
 }
+.ico-interacc-tarjeta-celu{
+  height: 10vh;
+  margin-bottom: 3vh;
+}
 .ico-edit-tarjeta{
   height: 12vh;
+}
+.ico-edit-perf{
+  height: 18vh;
 }
 .ico-clima {
   margin-top: 5%;
@@ -174,12 +181,15 @@
   background-color:#272727;
 }
 .menu-usuario-inicio-celu{
-  min-height: 65vh;
-  height: auto;
+  min-height: 64vh !important;
   background-color:#272727;
 }
 .menu-usuario-inicio-pc{
   height: 14vh;
+  background-color:#272727;
+}
+.menu-encabezado-celu{
+  height: 15vh;
   background-color:#272727;
 }
 .img-disp{
@@ -210,7 +220,7 @@
 .menu-crear-cuenta-celu{
   height: auto;
   position: absolute;
-  min-height:84vh;
+  min-height: 15vh;
 }
 
 .menu-seleccion-mapa {
@@ -280,7 +290,10 @@
 .ini{
   margin-top: 4vh;
   margin-bottom: 4vh;
-
+}
+.ini-face{
+  margin-top: 4vh;
+  margin-bottom: 2vh;
 }
 .divisor{
   height: 2px;
@@ -398,6 +411,8 @@
   height: 4vh;
   text-align: center;
   padding: 0.4rem !important;
+  height: auto;
+  width: 100%;
 }
 
 /*Bordes y Fuentes*/
